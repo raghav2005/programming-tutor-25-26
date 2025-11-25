@@ -127,3 +127,8 @@ squares :: [Int] -> [Int]
 squares xs = [x * x | x <- xs]
 -- we usually refer to lists by xs, ys, etc.
 -- the code above is basically saying for each x in xs (the input list), let the value in the new list be (append to the new list) x^2
+
+such that
+
+
+x = [if i ** 2 == 0 then asdf else asdf for i in range(1, 6)]
